@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+<!-- EXE Icon -->
+    <ApplicationIcon>Assets\calculator_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+ <ItemGroup>
+    <Resource Include="Assets\calculator_icon.ico" />
+  </ItemGroup>
+
+</Project>
